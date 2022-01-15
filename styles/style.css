@@ -34,6 +34,15 @@ nav{
     margin: 0px 50px;
     padding: 0 100;
 }
+/* #menu-icon{
+    padding-right: 10px;
+    display: none;
+} */
+.nav-inside-icon{
+    display: none;
+    flex-direction: column;
+}
+
 header>nav>ul {
     text-decoration: none;
     list-style: none;
@@ -42,15 +51,25 @@ header>nav>ul {
 }
 header>nav>ul li a{
     text-decoration: none;
-    padding-right: 10px;
+    padding-right: 40px;
+    font-size: 16px;
+    color: #3A3A3A;
     
     
 }
-.nav-title-text{
+.nav-left-side{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-title-text {
     font-size: 24px;
 }
 .nav-right-side{
     display: flex;
+}
+.fa-shopping-cart{
+    font-size : 24px;
 }
 
 
@@ -59,16 +78,14 @@ header>nav>ul li a{
 -------------------- */
 .top-section{
     display: flex;
+    
 }
 .top-section,.header{
     margin: 20px 50px;
     padding: 100px;
     
 }
-.top-section-left{
-    
-    
-}
+
 .top-section-left h1{
     font-size: 50px;
 }
@@ -87,6 +104,7 @@ header>nav>ul li a{
     display: flex;
     justify-content: center;
 }
+
 
 
 /* Ecommerce logo Section style */
@@ -175,6 +193,26 @@ footer{
 .footer-socia-icon{
     font-size: 24px;
 }
+
+/*--------------
+  Media queries
+  -------------- */
+  @media (max-width:480px) {
+      body{
+          width: 100%;
+      }
+      .ecommerce-logo-container{
+          display: flex;
+          flex-wrap: wrap;
+      }
+      .products{
+          display: flex;
+          flex-direction: column;
+      }
+      
+      
+  }
+
 
 
 
