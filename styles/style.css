@@ -201,6 +201,28 @@ footer{
       body{
           width: 100%;
       }
+      .half-width{100%;}
+      .nav-right-side{
+          display: none;
+      }
+      .top-section{
+          width: 100%;
+          margin: 0;
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+      }
+      .top-section h1{
+          font-size: 30px;
+      }
+      
+      .top-section-left{
+          margin: 0px;
+          padding: 0px;
+      }
+      .top-section-right{
+          margin: 0;
+          padding: 0;
+      }
       .ecommerce-logo-container{
           display: flex;
           flex-wrap: wrap;
@@ -208,6 +230,7 @@ footer{
       .products{
           display: flex;
           flex-direction: column;
+          justify-content: center;
       }
       
       
