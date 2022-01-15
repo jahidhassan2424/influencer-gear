@@ -1,0 +1,139 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+/* ------------------------------
+            Commno Styles
+--------------------------------*/
+.half-width{
+    width: 50%;
+}
+.link-button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+}
+.fa-star, .fa-star-half-alt{
+    color: #FB8200;
+    Width :11.07px;
+    Height :10.32px;
+    padding-right: 5px;
+}
+.products small{
+    font-size: 14px;
+}
+
+
+
+/*---------------------
+   Top section Styles
+-------------------- */
+.top-section{
+    display: flex;
+}
+.top-section{
+    margin: 20px 50px;
+    padding: 100px;
+    
+}
+.top-section-left{
+    
+    
+}
+.top-section-left h1{
+    font-size: 50px;
+}
+.top-section-left p{
+    font-size: 20px;
+    position: relative;
+    top: -26px;
+}
+.top-section-left a{
+    
+    position: relative;
+    bottom: 16px;
+}
+
+.top-section-right{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Ecommerce logo Section style */
+.ecommerce-logo-section{
+    margin:0 10%;
+}
+.ecommerce-logo-container{
+    
+    display: flex;
+    justify-content: center;
+}
+.ecommerce-logo{
+    padding: 10px 20px;
+}
+
+
+/* Product Section */
+.popular-collection-section{
+    
+    margin: 20px 20%;
+    margin-top: 100px;
+}
+.popular-collection-section>h2{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 100px;
+    line-height 70px;
+    padding: 50px 0 10px 0;
+    
+}
+
+.products{
+    
+    Width:600px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 6px;
+}
+.product{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    Width:329px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    margin: 10px;
+    border-radius: 5px;
+
+}
+.product-image{
+    width: 300px;
+    height: 256px;
+}
+.product-details{
+    padding: 5px;
+}
+.product-details>span{
+    font-size: 24px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.see-more{
+    text-align: right;
+    position: relative;
+    top: 20px;
+}
+.see-more a{
+    text-align: right;
+    text-decoration: none;
+    color:#E02C6D ;
+}
+
+
